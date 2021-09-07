@@ -1,0 +1,22 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: darkgrey;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.circulodeprueba {
+  background-color: blueviolet;
+  color: cyan;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
