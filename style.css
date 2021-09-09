@@ -1,5 +1,8 @@
 * {
   font-family: "Courier New", Courier, monospace;
+}
+
+body {
   background-color: darkgrey;
 }
 
@@ -19,4 +22,33 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
+}
+
+.bodycontainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.containertext {
+  width: 600px;
+  height: 500px;
+  border: #777 solid 2px;
+  background-color: rgba(151, 65, 39, 0.5);
+}
+
+.title {
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 100, 0, 0.671);
+}
+
+.contenido {
+  font-family: serif;
+  font-size: 20px;
+  text-align: justify;
+  padding: 25px;
 }
