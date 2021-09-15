@@ -32,7 +32,7 @@ body {
 
 .containertext {
   width: 600px;
-  height: 500px;
+  height: auto;
   border: #777 solid 2px;
   background-color: rgba(151, 65, 39, 0.5);
 }
